@@ -15,5 +15,17 @@ data class Alarm(
     @ColumnInfo(name = "message")
     val alarmMessage: String,
     @ColumnInfo(name ="sound")
-    val alarmSound: Uri
+    val alarmSound: String
+)
+
+@Entity
+data class Sound(
+    @PrimaryKey(autoGenerate = true)
+    val soundId: Int = 0,
+    @ColumnInfo(name ="url")
+    val soundUrl: String,
+    @ColumnInfo(name ="title")
+    val soundTitle: String,
+    @ColumnInfo(name ="thumbnail")
+    val SoundThumbnal: String
 )
