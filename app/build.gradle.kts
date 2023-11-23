@@ -48,4 +48,8 @@ dependencies {
 
     implementation ("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation ("androidx.navigation:navigation-ui-ktx:2.7.5")
+
+    implementation("androidx.room:room-runtime:2.5.2")
+    implementation("com.google.devtools.ksp:symbol-processing-api:1.5.30-1.0.0")
+    implementation ("androidx.room:room-ktx:2.5.2")
 }
