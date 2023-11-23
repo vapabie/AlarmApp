@@ -56,4 +56,7 @@ dependencies {
     implementation("androidx.room:room-runtime:2.5.2")
     implementation("com.google.devtools.ksp:symbol-processing-api:1.5.30-1.0.0")
     implementation ("androidx.room:room-ktx:2.5.2")
+
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
 }
