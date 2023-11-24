@@ -33,7 +33,7 @@ class AlarmViewModel(private val alarmDao: AlarmDao) : ViewModel() {
     }
 
 
-    private fun updateAlarm(alarm: Alarm){
+    fun updateAlarm(alarm: Alarm){
         viewModelScope.launch { alarmDao.update(alarm) }
     }
     private fun getUpdatedAlarmEntry(
